@@ -32,7 +32,7 @@ elif choice == 2:
 	c = float(raw_input("Side 3 Length:"))
 	print rect_prism(a,b,c)
 elif choice == 3:
-	a = float(raw_input("Raduis:"))
+	a = float(raw_input("Radius:"))
 	b = float(raw_input("Height:"))
 	print cylinder(a,b)
 elif choice == 4:
@@ -40,4 +40,11 @@ elif choice == 4:
 	b = float(raw_input("Base Length 2:"))
 	c = float(raw_input("Height:"))
 	print pyramid(a,b,c)
+elif choice == 5:
+	a = int(raw_input("Radius:"))
+	b = int(raw_input("Height:"))
+	print cone(a,b)
+elif choice == 6:
+	a = int(raw_input("Radius:"))
+	print sphere(a)
 quit = raw_input("Press enter to quit")
