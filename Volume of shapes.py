@@ -41,10 +41,10 @@ elif choice == 4:
 	c = float(raw_input("Height:"))
 	print pyramid(a,b,c)
 elif choice == 5:
-	a = int(raw_input("Radius:"))
-	b = int(raw_input("Height:"))
+	a = float(raw_input("Radius:"))
+	b = float(raw_input("Height:"))
 	print cone(a,b)
 elif choice == 6:
-	a = int(raw_input("Radius:"))
+	a = float(raw_input("Radius:"))
 	print sphere(a)
 quit = raw_input("Press enter to quit")
