@@ -1,4 +1,4 @@
-fslope = raw_input("Do you have a slope value?(y or n)")
+ifslope = raw_input("Do you have a slope value?(y or n)")
 if ifslope == "y":
     slope2 = raw_input("Type slope part one. (etc. -->1/x)")
     slope1 = raw_input("Type slope part two. (etc. y/1<--)")
